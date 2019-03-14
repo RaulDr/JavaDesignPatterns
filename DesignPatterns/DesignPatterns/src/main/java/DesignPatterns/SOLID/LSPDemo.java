@@ -1,4 +1,4 @@
-package DesignPatterns;
+package DesignPatterns.SOLID;
 
 class Rectangle
 {

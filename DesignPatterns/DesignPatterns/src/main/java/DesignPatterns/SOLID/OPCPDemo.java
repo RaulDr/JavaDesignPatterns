@@ -1,4 +1,4 @@
-package DesignPatterns;
+package DesignPatterns.SOLID;
 
 import java.util.List;
 import java.util.stream.Stream;
