@@ -17,6 +17,9 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compile group: 'org.javatuples', name: 'javatuples', version: '1.2'
+	compile group: 'org.reflections', name: 'reflections', version: '0.9.5-RC2'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+	compile group: 'com.google.inject', name: 'guice', version: '4.0'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
